@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <title>HTML5 Drawing</title>
+    
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="includes/modernizr.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+ 
+<!-- Links -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+<body>
+
+	<div id="wrapper">
+
+    <div id="container">
+        <h1>HTML5 Canvas Drawing</h1>
+    </div>
+
+<div id="CanvasSpacer"></div>
+    	<!--Part 1-->
+    	<h1>Part 1</h1>
+			<p>Draw a rectangle starting at point (0 ,0)
+	That has a width of 50 px and a height of 100px
+	Set the color of the rectangle to a shade of blue.
+	Set the stroke color to black and the dimension of the stroke are the same as the rectangle.</p>
+		<canvas id="Canvas1" width="800" height="250">
+			Ohhh, oucch! Your browser does not support canvas.
+		</canvas>
+		<!--Part 1 END-->
+
+
+		<!--Part 2-->
+    	<h1>Part 2</h1>
+		<p>Draw a circle starting at point (50 ,50)
+That has a radius of 20 px 
+Set the color of the circle to a shade of red and set the alpha to .5
+Set the stroke color to black and use a radius of 30px for this circle.</p>
+		<canvas id="Canvas2" width="800" height="250">
+			Ohhh, oucch! Your browser does not support canvas.
+		</canvas>
+		<!--Part 2 END-->
+		<div id="CanvasSpacer"></div>
+
+
+		<!--Part 3-->
+    	<h1>Part 3 Practice using Path drawing.</h1>
+		<p>
+Create a 5-point star shaped pattern using the lineTo method.
+Begin this shape at (100, 100)</p>
+		<canvas id="Canvas3" width="800" height="250">
+			Ohhh, oucch! Your browser does not support canvas.
+		</canvas>
+		<!--Part 3 END-->
+		<div id="CanvasSpacer"></div>
+
+		<!--Part 4-->
+    	<h1>Part 4 Practice drawing with Bezier curves.</h1>
+		<p>
+Try drawing the top to an umbrella.
+This should have one large arc (a half circle) on the top and scalloped edges on the bottom.
+
+Position, height, width and color are your choice.
+Do not overlap any other object.</p>
+		<canvas id="Canvas4" width="800" height="250">
+			Ohhh, oucch! Your browser does not support canvas.
+		</canvas>
+		<!--Part 4 END-->
+
+		<div id="CanvasSpacer"></div>
+		<!--Part 5-->
+    	<h1>Part 5 Practice using text.</h1>
+		<p>Draw text into your canvas.  It can say whatever you would like in any color.</p>
+		<canvas id="Canvas5" width="800" height="250">
+			Ohhh, oucch! Your browser does not support canvas.
+		</canvas>
+		<!--Part 5 END-->
+
+		<div id="CanvasSpacer"></div>
+		<!--Part 6-->
+    	<h1>Part 6 Pixel manipulation.</h1>
+		<p>
+Draw the image logo.png into the canvas in the following 3 ways.</p>
+  <ul>1. The image exactly as it is.</ul>
+  <ul>2. Shrink the image by 50%</ul>
+  <ul>3. Slice a section of the logo out and draw that onto the canvas.</ul>
+		<canvas id="Canvas6" width="800" height="250">
+			Ohhh, oucch! Your browser does not support canvas.
+		</canvas>
+		<img id="img1" src="image/logo.png"  style="display:none;">
+		<!--Part 6 END-->
+
+	<div id="CanvasSpacer"></div>
+		<!--Part 7-->
+    	<h1>Part 7 Putting it all together.</h1>
+		<p>Using a combination of all the methods. Create a complex scene. You must use at least 3 different methods.</p>
+		<canvas id="Canvas7" width="800" height="250">
+			Ohhh, oucch! Your browser does not support canvas.
+		</canvas>
+		<img id="img2" src="image/meister_400x400.png" style="display:none;" >
+		<!--Part 7 END-->
+		<div id="CanvasSpacer"></div>
+
+ </div>
+
+ <!-- Scripts -->
+ <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
